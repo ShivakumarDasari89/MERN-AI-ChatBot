@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { IoIosLogIn } from "react-icons/io";
 import { Box, Typography, Button } from "@mui/material";
-import CustomizedInput from "../components/shared/CustomizedInput";
+import CustomizedInput from "../components/shared/Customizedinput";
 import { toast } from "react-hot-toast";
 import { useAuth } from "../context/AuthContex";
 import { useNavigate } from "react-router-dom";
